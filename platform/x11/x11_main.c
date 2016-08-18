@@ -224,13 +224,13 @@ static void winopen(void)
 	xcwait = XCreateFontCursor(xdpy, XC_watch);
 	xccaret = XCreateFontCursor(xdpy, XC_xterm);
 
-	xbgcolor.red = 0x7000;
-	xbgcolor.green = 0x7000;
-	xbgcolor.blue = 0x7000;
+	xbgcolor.red = 0x0000;
+	xbgcolor.green = 0x0000;
+	xbgcolor.blue = 0x0000;
 
-	xshcolor.red = 0x4000;
-	xshcolor.green = 0x4000;
-	xshcolor.blue = 0x4000;
+	xshcolor.red = 0x0000;
+	xshcolor.green = 0x0000;
+	xshcolor.blue = 0x0000;
 
 	XAllocColor(xdpy, DefaultColormap(xdpy, xscr), &xbgcolor);
 	XAllocColor(xdpy, DefaultColormap(xdpy, xscr), &xshcolor);
